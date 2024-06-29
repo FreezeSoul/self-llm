@@ -7,7 +7,7 @@
 
 &emsp;&emsp;本项目的主要内容包括：
 
-  1. 基于 AutoDL 平台（可扩展，例如阿里云）的开源 LLM 环境配置指南，针对不同模型要求提供不同的详细环境配置步骤；
+  1. 基于 Linux 平台的开源 LLM 环境配置指南，针对不同模型要求提供不同的详细环境配置步骤；
   2. 针对国内外主流开源 LLM 的部署使用教程，包括 LLaMA、ChatGLM、InternLM 等； 
   3. 开源 LLM 的部署应用指导，包括命令行调用、在线 Demo 部署、LangChain 框架集成等；
   4. 开源 LLM 的全量微调、高效微调方法，包括分布式全量微调、LoRA、ptuning 等。
@@ -54,6 +54,24 @@
 &emsp;&emsp; 本项目拟围绕开源 LLM 应用全流程组织，包括环境配置及使用、部署应用、微调等，每个部分覆盖主流及特点开源 LLM：
 
 ### 已支持模型
+
+- [Gemma-2-9b-it](https://huggingface.co/google/gemma-2-9b-it)
+  - [x] [Gemma-2-9b-it FastApi 部署调用](./Gemma2/01-Gemma-2-9b-it%20FastApi%20部署调用.md) @不要葱姜蒜
+  - [x] [Gemma-2-9b-it langchain 接入](./Gemma2/02-Gemma-2-9b-it%20langchain%20接入.md) @不要葱姜蒜
+  - [x] [Gemma-2-9b-it WebDemo 部署](./Gemma2/03-Gemma-2-9b-it%20WebDemo%20部署.md) @不要葱姜蒜
+  - [x] [Gemma-2-9b-it Peft Lora 微调](./Gemma2/04-Gemma-2-9b-it%20peft%20lora微调.md) @不要葱姜蒜
+
+- [Yuan2.0](https://github.com/IEIT-Yuan/Yuan-2.0)
+  - [x] [Yuan2.0-2B FastApi 部署调用](./Yuan2.0/01-Yuan2.0-2B%20FastApi%20部署调用.md) @张帆
+  - [x] [Yuan2.0-2B Langchain 接入](./Yuan2.0/02-Yuan2.0-2B%20Langchain%20接入.md) @张帆
+  - [x] [Yuan2.0-2B WebDemo部署](./Yuan2.0/03-Yuan2.0-2B%20WebDemo部署.md) @张帆
+  - [x] [Yuan2.0-2B vLLM部署调用](./Yuan2.0/04-Yuan2.0-2B%20vLLM部署调用.md) @张帆
+  - [x] [Yuan2.0-2B Lora微调](./Yuan2.0/05-Yuan2.0-2B%20Lora微调.md) @张帆
+
+- [Yuan2.0-M32](https://github.com/IEIT-Yuan/Yuan2.0-M32)
+  - [x] [Yuan2.0-M32 FastApi 部署调用](./Yuan2.0-M32/01-Yuan2.0-M32%20FastApi%20部署调用.md) @张帆
+  - [x] [Yuan2.0-M32 Langchain 接入](./Yuan2.0-M32/02-Yuan2.0-M32%20Langchain%20接入.md) @张帆
+  - [x] [Yuan2.0-M32 WebDemo部署](./Yuan2.0-M32/03-Yuan2.0-M32%20WebDemo部署.md) @张帆
 
 - [DeepSeek-Coder-V2](https://github.com/deepseek-ai/DeepSeek-Coder-V2)
   - [x] [DeepSeek-Coder-V2-Lite-Instruct FastApi 部署调用](./DeepSeek-Coder-V2/01-DeepSeek-Coder-V2-Lite-Instruct%20FastApi%20部署调用.md) @姜舒凡
@@ -231,12 +249,13 @@
 - [邹雨衡-项目负责人](https://github.com/logan-zou) （Datawhale成员-对外经济贸易大学）
 - [肖鸿儒](https://github.com/Hongru0306) （Datawhale成员-同济大学）
 - [郭志航](https://github.com/acwwt)（内容创作者）
+- [张帆](https://github.com/zhangfanTJU)（内容创作者-Datawhale成员）
 - [Kailigithub](https://github.com/Kailigithub) （Datawhale成员）
 - [李娇娇](https://github.com/Aphasia0515) （Datawhale成员）
 - [丁悦](https://github.com/dingyue772) （Datawhale-鲸英助教）
 - [惠佳豪](https://github.com/L4HeyXiao) （Datawhale-宣传大使）
 - [郑皓桦](https://github.com/BaiYu96) （内容创作者）
-- [王茂霖](https://github.com/mlw67)（Datawhale成员-内容创作者）
+- [王茂霖](https://github.com/mlw67)（内容创作者-Datawhale成员）
 - [孙健壮](https://github.com/Caleb-Sun-jz)（内容创作者-对外经济贸易大学）
 - [东东](https://github.com/LucaChen)（内容创作者-谷歌开发者机器学习技术专家）
 - [姜舒凡](https://github.com/Tsumugii24)（内容创作者-鲸英助教）
@@ -246,13 +265,13 @@
 - [李柯辰](https://github.com/Joe-2002) （Datawhale成员）
 - [Swiftie](https://github.com/cswangxiaowei) （小米NLP算法工程师）
 - [黄柏特](https://github.com/KashiwaByte)（内容创作者-西安电子科技大学）
-- [张友东](https://github.com/AXYZdong)（Datawhale成员-内容创作者）
+- [张友东](https://github.com/AXYZdong)（内容创作者-Datawhale成员）
 - [余洋](https://github.com/YangYu-NUAA)（内容创作者-Datawhale成员）
-- [小罗](https://github.com/lyj11111111) （Datawhale成员）
+- [小罗](https://github.com/lyj11111111) （内容创作者-Datawhale成员）
 - [谭逸珂](https://github.com/LikeGiver)（内容创作者-对外经济贸易大学）
-- [王熠明](https://github.com/Bald0Wang)（Datawhale成员-内容创作者）
+- [王熠明](https://github.com/Bald0Wang)（内容创作者-Datawhale成员）
 - [何至轩](https://github.com/pod2c)（内容创作者-鲸英助教）
-- [康婧淇](https://github.com/jodie-kang)（Datawhale成员-内容创作者）
+- [康婧淇](https://github.com/jodie-kang)（内容创作者-Datawhale成员）
 - [三水](https://github.com/sssanssss)（内容创作者-鲸英助教）
 - [九月](https://github.com/chg0901)（内容创作者-Datawhale意向成员）
 - [邓恺俊](https://github.com/Kedreamix)（内容创作者-Datawhale成员）
