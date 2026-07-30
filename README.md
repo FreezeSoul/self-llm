@@ -161,7 +161,7 @@
 <p align="center">
   <strong>🚀 AMD GPU 平台已支持模型</strong><br>
   <em>每个模型都提供完整的 ROCm 环境配置与部署教程（LM Studio / vLLM / Ollama / llama.cpp）</em><br>
-  <em>感谢 AMD University Program（AMD 大学合作部）对本项目的支持</em><br>
+  <em>感谢 AMD University Program（AMD 大学计划）对本项目的支持</em><br>
   📖 <strong><a href="./support_model_amd.md">查看完整 AMD 平台模型列表和教程</a></strong><br>
   📘 <strong>进阶学习推荐：</strong><a href="https://github.com/datawhalechina/hello-rocm">hello-rocm</a>（Datawhale ROCm 部署 / 微调 / 基础设施完整教程）
 </p>
@@ -303,7 +303,7 @@
 - 特别感谢以下为教程做出贡献的同学！
 
 <p align="center">
-  <em>感谢 AMD University Program（AMD 大学合作部）对本项目的支持</em><br>
+  <em>感谢 AMD University Program（AMD 大学计划）对本项目的支持</em><br>
   <img src="./images/rocm_logo.png" height="48" alt="ROCm"/>
   &nbsp;&nbsp;&nbsp;
   <img src="./images/aup_logo.png" height="48" alt="AMD University Program"/>
